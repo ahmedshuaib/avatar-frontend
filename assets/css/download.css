@@ -6,7 +6,7 @@
     justify-content: space-between;
 }
 .col-md-8{
-    max-width:625px !important;
+    max-width:640px !important;
 }
 .background-svg{
     position: static !important;
@@ -58,6 +58,14 @@
     text-align: center;
     color: #F2F2F2;
 }
+.windows-btn{
+    margin-left:-5px
+}
+.windows-btn a{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+}
 @media screen and (max-width:1023px) {
     .m-v{
         width:50% !important;
@@ -65,6 +73,7 @@
     .windows-btn{
         display: inline-grid;
         gap:6%;
+        margin:0;
     }
     .v-b .btn {
         text-transform: uppercase;
@@ -133,7 +142,7 @@ span .v1{
     text-align: center;
     color: #FFFFFF;
     padding:15px 50px;
-    width:100%;
+    width:95%;
 }
 .version-list{
     margin-top:3rem;
